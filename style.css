@@ -1,0 +1,607 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=PT+Sans+Narrow:wght@700&display=swap');
+/* font-family: 'Dancing Script',
+cursive;
+font-family: 'PT Sans Narrow',
+sans-serif; */
+
+/* home page */
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.home-page{
+    width: 100%;
+    height: 100vh;
+    background: #DBE2EF;
+    overflow: hidden;
+}
+.home-page .background img{
+    width: 100%;
+    height: 40vh;
+    border-radius: 8px;
+}
+.home-page h1{
+    font-family: 'Dancing Script', cursive;
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 2rem;
+}
+.home-page .btn{
+    width: 170px;
+    height: 2rem;
+    display: flex;
+    margin-left: 25%;
+    background: #DBE2EF;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 0.4rem 0.8rem;
+    transition: .3s ease-in-out;
+    margin-bottom: 1rem;
+}
+.home-page .btn:hover {
+    background-color: #fff;
+}
+.home-page .btn a{
+    text-decoration: none;
+    color: #000;
+    margin-top: 5px;
+    margin-left: 1rem;
+    font-family: sans-serif;
+}
+.home-page p{
+    text-align: center;
+}
+
+/* end home page */
+
+.content{
+    width: 100%;
+    height: 110vh;
+    background: #DBE2EF;
+}
+.content .image img{
+    width: 150px;
+    margin-left: 30%;
+    margin-top: 1rem;
+}
+.content .content-wrapper h1:nth-child(1){
+    text-align: center;
+    font-family: 'PT Sans Narrow';
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.content .content-wrapper h1:nth-child(2){
+    text-align: center;
+    font-family: 'Dancing Script';
+    font-size: 35px;
+    margin-bottom: 3rem;
+}
+.content .card .card-bg{
+    width: 80%;
+    height: 65vh;
+    background: #F9F7F7;
+    margin-left: 10%;
+    border-top-left-radius: 100rem;
+    border-top-right-radius: 100rem;
+    border-bottom-right-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+}
+.content .card .card-bg img{
+    width: 80%;
+    height: 50vh;
+    margin-left: 10%;
+    border-top-left-radius: 100rem;
+    border-top-right-radius: 100rem;
+    margin-top: 10%;
+}
+.content .card .card-bg .waktu h1{
+    width: 200px;
+    text-align: center;
+    margin-left: 2rem;
+    padding: 0.5rem 1.1rem;
+    border-radius: 8px;
+    font-family: sans-serif;
+    font-size: 16px;
+    border: 2px solid #DBE2EF;
+    transition: .3s ease-in-out;
+    margin-top: 0.7rem;
+}
+.content .card .card-bg .waktu h1:hover{
+    background-color: #DBE2EF;
+}
+
+/* doa */
+.doa{
+    width: 100%;
+    height: 60vh;
+    text-align: center;
+}
+.doa .pembungkus{
+    width: 80%;
+    margin-top: 5rem;
+    margin-left: 10%;
+}
+.doa img{
+    width: 250px;
+}
+
+/* profile */
+
+.profile{
+    width: 100%;
+    height: 100vh;
+    background: #DBE2EF;
+}
+.profile .card{
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 4rem;
+}
+.profile .card .card-bg{
+    width: 100%;
+    height: 80vh;
+    background: #fff;
+    border-radius: 20px;
+    text-align: center;
+}
+.profile .card .card-bg .pria img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 2.7rem;
+}
+.profile .card .card-bg .pria p{
+    margin-top: 1rem;
+}
+.profile .card .card-bg .wanita img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 2rem;
+}
+.profile .card .card-bg .wanita p{
+    margin-top: 1rem;
+}
+.profile .card .image img{
+    position: absolute;
+    width: 180px;
+    margin-left: 11.5rem;
+    margin-top: -5rem;
+    transform: rotate(-50deg);
+}
+
+/* akad nikah */
+
+.akad-nikah {
+    width: 100%;
+    height: 100vh;
+    background: #DBE2EF;
+}
+
+.akad-nikah .content-wrapper h1:nth-child(1) {
+    text-align: center;
+    font-family: 'PT Sans Narrow';
+}
+
+.akad-nikah .content-wrapper h1:nth-child(2) {
+    text-align: center;
+    font-family: 'Dancing Script';
+    font-size: 35px;
+}
+
+.akad-nikah .card .card-bg {
+    width: 80%;
+    height: 95vh;
+    background: #F9F7F7;
+    margin-left: 10%;
+    border-top-left-radius: 100rem;
+    border-top-right-radius: 100rem;
+    border-bottom-right-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+    overflow: hidden;
+}
+
+.akad-nikah .card .card-bg img {
+    width: 80%;
+    height: 40vh;
+    margin-left: 10%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin-top: 10%;
+}
+
+.akad-nikah .card .card-bg .waktu h1 {
+    font-family: 'Dancing Script';
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 40px;
+}
+
+.akad-nikah .card .card-bg .waktu h3{
+    font-family: 'PT Sans Narrow';
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.akad-nikah .card .card-bg .waktu p{
+    text-align: center;
+    margin-top: 0.8rem;
+    margin-bottom: 0.9rem;
+}
+
+.akad-nikah .card .card-bg .waktu h2{
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.akad-nikah .card .card-bg .waktu .btn{
+    width: 150px;
+    border: 2px solid #DBE2EF;
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 2rem;
+    border-radius: 20px;
+    padding: 0.5rem 0;
+    display: flex;
+    transition: .3s ease-in-out;
+}
+
+.akad-nikah .card .card-bg .waktu .btn:hover{
+    background: #DBE2EF;
+}
+
+.akad-nikah .card .card-bg .waktu .btn a{
+    font-family: sans-serif;
+    margin-left: 0.8rem;
+    color: #000;
+    text-decoration: none;
+}
+
+.akad-nikah .card .card-bg .waktu .btn img{
+    margin-top: 0;
+    width: 20px;
+    height: 20px;
+}
+
+
+/* maps */
+.maps{
+    overflow: hidden;
+    background: #DBE2EF;
+    width: 100%;
+    height: 100vh;
+}
+
+.maps .btn {
+    width: 100px;
+    border: 2px solid #fff;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 2rem;
+    border-radius: 20px;
+    padding: 0.5rem 0;
+    display: flex;
+    transition: .3s ease-in-out;
+}
+
+.maps .btn:hover {
+    background: #fff;
+}
+
+.maps .btn a {
+    font-family: sans-serif;
+    margin-left: 1.3rem;
+    color: #000;
+    text-decoration: none;
+}
+.maps img{
+    width: 600px;
+    margin-top: 2rem;
+    margin-left: -4rem;
+}
+
+
+/* resepsi */
+
+.resepsi {
+    width: 100%;
+    height: 120vh;
+    background: #DBE2EF;
+    overflow-y: hidden;
+}
+
+.resepsi .content-wrapper h1:nth-child(1) {
+    text-align: center;
+    font-family: 'PT Sans Narrow';
+}
+
+.resepsi .content-wrapper h1:nth-child(2) {
+    text-align: center;
+    font-family: 'Dancing Script';
+    font-size: 35px;
+}
+
+.resepsi .card .card-bg {
+    width: 80%;
+    height: 110vh;
+    background: #F9F7F7;
+    margin-left: 10%;
+    border-top-left-radius: 100rem;
+    border-top-right-radius: 100rem;
+    border-bottom-right-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+}
+
+.resepsi .card .card-bg img {
+    width: 80%;
+    height: 50vh;
+    margin-left: 10%;
+    border-top-left-radius: 100rem;
+    border-top-right-radius: 100rem;
+    margin-top: 10%;
+}
+
+.resepsi .card .card-bg .waktu h1 {
+    font-family: 'Dancing Script';
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 40px;
+}
+
+.resepsi .card .card-bg .waktu h3 {
+    font-family: 'PT Sans Narrow';
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.resepsi .card .card-bg .waktu p {
+    text-align: center;
+    margin-top: 0.8rem;
+    margin-bottom: 0.9rem;
+}
+
+.resepsi .card .card-bg .waktu h2 {
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.resepsi .card .images img {
+    width: 150px;
+    height: 80px;
+    margin-top: 0;
+    margin-left: 5rem;
+}
+
+/* gallery */
+
+.gallery{
+    width: 100%;
+    height: 110vh;
+    text-align: center;
+}
+.gallery h1{
+    font-family: 'Dancing Script';
+    font-size: 45px;
+    margin-top: 3.5rem;
+}
+.gallery .image-gallery img{
+    width: 100px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.gallery .image-gallery img:nth-child(1){
+    margin-top: 2rem;
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.gallery .image-gallery img:nth-child(2){
+    width: 200px;
+    height: 178px;
+}
+.gallery .image-gallery img:nth-child(4){
+    border-bottom-left-radius: 10px;
+}
+.gallery .image-gallery img:nth-child(6) {
+    border-bottom-right-radius: 10px;
+}
+
+
+/* gift */
+
+.gift{
+    width: 100%;
+    height: 130vh;
+    background: #DBE2EF;
+    text-align: center;
+}
+.gift .ucapan h1{
+    margin-top: 4rem;
+    font-family: 'Dancing Script';
+    margin-bottom: 2rem;
+    font-size: 40px;
+}
+.gift .ucapan p{
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 2rem;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.gift .ucapan .card-gift{
+    width: 80%;
+    height: 230px;
+    margin-left: 10%;
+    border-radius: 10px;
+    background: #fff;
+}
+.gift .ucapan .card-gift img{
+    margin-top: 1.8rem;
+    margin-bottom: 1rem;
+}
+.gift .ucapan .card-gift p{
+    font-family: sans-serif;
+    font-weight: 800;
+    margin-bottom: 0.6rem;
+    margin-top: 1rem;
+}
+.gift .ucapan .alamat {
+    width: 80%;
+    height: 280px;
+    margin-left: 10%;
+    border-radius: 10px;
+    background: #fff;
+    margin-top: 2rem;
+}
+
+.gift .ucapan .alamat img {
+    width: 55px;
+    margin-top: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.gift .ucapan .alamat p{
+    font-family: sans-serif;
+    font-weight: 800;
+    margin-bottom: 0.6rem;
+    margin-top: 1rem;
+}
+
+/* protocols */
+
+.protocol {
+    width: 100%;
+    height: 80vh;
+    background-color: #fff;
+}
+.protocol .content-protocol{
+    width: 80%;
+    margin-left: 10%;
+}
+.protocol .content-protocol h1{
+    font-size: 30px;
+    margin-top: 4rem;
+    font-family: 'Dancing Script';
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.protocol .content-protocol .content-image .image1{
+    display: flex;
+    text-align: center;
+    margin-top: 2rem;
+}
+.protocol .content-protocol .content-image .image1 .image img{
+    width: 70px;
+    margin-bottom: 1rem;
+}
+.protocol .content-protocol .content-image .image1 .image p{
+    font-family: sans-serif;
+}
+
+
+
+/* komentar */
+
+
+.comment{
+    width: 100%;
+    height: 115vh;
+    background-color: #DBE2EF;
+}
+.comment .title h1{
+    text-align: center;
+    font-family: 'Dancing Script';
+    font-size: 40px;
+    margin-top: 4rem;
+
+}
+.comment .title p{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    font-family: sans-serif;
+}
+.comment .komentar .comment-content {
+    width: 80%;
+    height: 27.5vh;
+    margin-left: 10%;
+    display: block;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 10px;
+} 
+.comment .komentar .comment-content input{
+    width: 80%;
+    height: 2rem;
+    padding-left: 1rem;
+    margin-top: 1.5rem;
+    outline: none;
+    border: none;
+    margin-left: 8%;
+    background-color: #DBE2EF;
+    border-radius: 10px;
+}
+.comment .komentar .comment-content button{
+    width: 80px;
+    height: 2rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #DBE2EF;
+    margin-left: 8%;
+    transition: .3s ease-in-out;
+}
+.comment .komentar .comment-content button:hover{
+    color: #fff;
+}
+.comment .content {
+    width: 71%;
+    height: 38vh;
+    margin-left: 10%;
+    background-color: #fff;
+    overflow: scroll;
+    margin-top: 2rem;
+    padding-left: 2rem;
+    border-radius: 10px;
+    padding-top: 2rem;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.comment .content ul{
+    width: 80%;
+}
+
+/* footer */
+footer{
+    width: 100%;
+    height: 50vh;
+}
+footer .content-footer{
+    text-align: center;
+}
+footer .content-footer .image img{
+    width: 150px;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+footer .content-footer h1{
+    font-family: sans-serif;
+    font-size: 21px;
+}
+footer .content-footer p{
+    font-family: sans-serif;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+footer .content-footer .sosmed p{
+    font-family: sans-serif;
+    margin-top: 0;
+}
